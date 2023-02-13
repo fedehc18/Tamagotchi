@@ -1,0 +1,163 @@
+header {
+    text-align: center;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vector-premium/acuario-dibujos-animados-interior-habitacion-tanque-vidrio-agua-arena-mesa-condiciones-vida-peces-colores-algas-peces-submarinos-acuarios-modernos-generador-aire-cuidado-mascotas-vector_176516-3282.jpg?w=826);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-color: blueviolet;
+    font-family: 'Fredoka One', cursive;
+    
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 15% 35% 15%;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    
+}
+
+.barras{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.barras div{
+    margin: 30px 0px;
+}
+
+.barra-hambre{
+background: gray;
+width: 200px;
+height: 20px;
+border-radius: 15px;
+}
+
+#progreso-hambre{
+    background: green;
+height: 20px;
+border-radius: 15px;
+}
+
+.barra-diversion{
+    background: gray;
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    }
+    
+    #progreso-diversion{
+        background: green;
+    height: 20px;
+    border-radius: 15px;
+    }
+
+    .barra-sueño{
+        background: gray;
+        width: 200px;
+        height: 20px;
+        border-radius: 15px;
+        }
+        
+        #progreso-sueño{
+            background: green;
+        height: 20px;
+        border-radius: 15px;
+        }
+
+        .barra-vida{
+            background: gray;
+            width: 200px;
+            height: 20px;
+            border-radius: 15px;
+            }
+            
+            #progreso-vida{
+                background: green;
+            height: 20px;
+            border-radius: 15px;
+            }
+
+
+
+
+
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/vector-premium/dibujos-animados-consola-videojuegos-retro_24640-8051.jpg?w=740);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 40px;
+    border-radius: 25px;
+    
+}
+
+.botones button{
+    margin: 30px 0px;
+    padding: 20px 25px;
+    border-radius: 15px;
+    border:none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+#alimentar {
+    background: greenyellow;
+}
+
+#alimentar:hover:active {
+    padding: 15px 15px;
+font-size: 14px;
+    box-shadow: 0px 0px 24px 14px greenyellow;
+    cursor: pointer;
+}
+
+#jugar {
+    background-color: orange;
+}
+
+#jugar:hover:active {
+    padding: 15px 15px;
+font-size: 14px;
+    box-shadow: 0px 0px 24px 14px orange;
+    cursor: pointer;
+}
+
+#dormir {
+    background-color: gray;
+}
+
+#dormir:hover:active {
+    padding: 15px 15px;
+font-size: 14px;
+    box-shadow: 0px 0px 24px 14px gray;
+    cursor: pointer;
+}
+
+#empezar {
+    background-color: blue;
+    color: white;
+    border: 5px solid aqua;
+}
+
+#empezar:hover:active {
+    padding: 15px 15px;
+font-size: 14px;
+    box-shadow: 0px 0px 24px 14px blue;
+    cursor: pointer;
+}
+
+
